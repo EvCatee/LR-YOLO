@@ -15,7 +15,7 @@ uate the approach, we constructed a plum orchard dataset from three Chongqing or
 ance, scale variation, occlusion, and complex lighting. Experimental results show that the proposed
  method achieves 87.4% mAP@50 with 1.506M parameters, while maintaining real-time performance
  at 125 FPS, indicating a favorable balance between accuracy and efficiency
-# Architecture of LWD-YOLO <img width="4781" height="2618" alt="fig3_architecture_overview" src="https://github.com/user-attachments/assets/2c9bf201-ae8c-49d6-9f69-10d9b26c8ca2" />
+# Architecture of LWD-YOLO <img width="4770" height="2654" alt="fig3_architecture_overview" src="https://github.com/user-attachments/assets/846dcd54-37fa-4978-94f3-29207dbed16c" />
 # Visualization of Effective Receptive Fields (ERF) <img width="3164" height="1770" alt="Visualization of Effective Receptive Fields (ERF)" src="https://github.com/user-attachments/assets/0a3f0fff-f41e-4d0d-b489-8d588084710e" />
 # Detection under occlusion <img width="4441" height="2862" alt="fig12_detection_occluded" src="https://github.com/user-attachments/assets/79fa5857-d122-485e-8423-f618208afacf" />
 
