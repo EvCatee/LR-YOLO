@@ -1,0 +1,8 @@
+path: /home/ubuntu/cuili
+train: dataset_cuili/images/train
+val: dataset_cuili/images/val
+test: dataset_cuili/images/test
+
+nc: 3
+
+names: ['fruitlet','hard','mature']
