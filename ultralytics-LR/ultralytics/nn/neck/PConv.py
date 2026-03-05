@@ -1,4 +1,4 @@
-class PSConv(nn.Module):  
+class PConv(nn.Module):  
     ''' Pinwheel-shaped Convolution using the Asymmetric Padding method. '''
     
     def __init__(self, c1, c2, k, s):
@@ -17,4 +17,5 @@ class PSConv(nn.Module):
         yh0 = self.ch(self.pad[2](x))
         yh1 = self.ch(self.pad[3](x))
         return self.cat(torch.cat([yw0, yw1, yh0, yh1], dim=1))
+
 
